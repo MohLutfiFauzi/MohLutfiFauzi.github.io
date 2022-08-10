@@ -1,0 +1,138 @@
+import React from 'react'
+import styled from 'styled-components'
+import Diploma from '../assets/education.png';
+import { UilCalendarAlt } from '@iconscout/react-unicons'
+
+const Container = styled.main`
+  background-color: #1E1E1E;
+  width: 100%;
+  max-height: 400px;
+  display: flex;
+  flex-direction: column;
+  padding: 0 128px;
+  overflow-y: auto;
+`
+
+const Title = styled.h1`
+    font-size: 32px;
+    font-weight: 500;
+    color: white;
+`
+
+const SubTitle = styled.p`
+    font-size: 16px;
+    font-weight: 400;
+    color: white;
+`
+
+const Top = styled.section`
+    display: flex;
+    gap: 24px;
+    border-bottom: 1px solid #E0E2E3;
+    min-width: 647px;
+    padding: 32px 0;
+`
+
+const DescTop = styled.div`
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+`
+
+const Center = styled.section`
+    display: flex;
+    flex-direction: column;
+`
+
+const SubSubTitle = styled.h2`
+    font-size: 24px;
+    font-weight: 500;
+    color: white;
+    margin-top: 24px;
+`
+
+const Ul = styled.ul`
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-top: 10px
+`
+
+const LI = styled.li`
+    color: white;
+    margin-left: 40px;
+`
+
+const Anchor = styled.a`
+    text-decoration: none;
+    color: #485EFF;
+    cursor: pointer;
+    font-weight: 300;
+`
+
+const DateGraduation = styled.div`
+    display: flex;
+    gap: 5px;
+    margin-top: 5px;
+`
+
+const Qualification = () => {
+    return (
+        <>
+            <Container>
+                <Top>
+                    <img src={Diploma} alt="Icon Diploma" />
+                    <DescTop>
+                        <Title>Qualification</Title>
+                        <SubTitle>Frontend Developer  |  UI / UX Designer </SubTitle>
+                        <SubTitle>My personal journey</SubTitle>
+                    </DescTop>
+                </Top>
+                <Center>
+                    <SubSubTitle>
+                        Education ?
+                    </SubSubTitle>
+                    <Ul>
+                        <LI>
+                            Studying at <Anchor href='https://ft.unsur.ac.id/' target='_blank'>Suryakancana University</Anchor> majoring in Informatics Engineering. <br />
+                            <DateGraduation>
+                                <UilCalendarAlt /> 2018 - 2022
+                            </DateGraduation>
+                        </LI>
+                        <LI>
+                            Learn Web Design at  <Anchor href='https://buildwithangga.com/ab-lp-1' target='_blank'>Buildwithangga.</Anchor><br />
+                            <DateGraduation>
+                                <UilCalendarAlt /> 2018 - 2022
+                            </DateGraduation>
+                        </LI>
+                        <LI>
+                            Learn Web Development at <Anchor href='https://www.dicoding.com/' target='_blank'>Dicoding Indonesia.</Anchor><br />
+                            <DateGraduation>
+                                <UilCalendarAlt /> 2018 - 2022
+                            </DateGraduation>
+                        </LI>
+                        <LI>
+                            Learn Master in UI / UX at  <Anchor href='https://buildwithangga.com/ab-lp-1' target='_blank'>Buildwithangga.</Anchor><br />
+                            <DateGraduation>
+                                <UilCalendarAlt /> 2018 - 2022
+                            </DateGraduation>
+                        </LI>
+                    </Ul>
+                    <SubSubTitle>Work ?</SubSubTitle>
+                    <Ul>
+                        <LI>
+                            As a Frontend Developer, I haven't worked yet
+                        </LI>
+                        <LI>
+                            As a UI / UX, I haven't worked yet
+                        </LI>
+                    </Ul>
+                    <SubSubTitle>Certificate ?</SubSubTitle>
+                    <SubTitle>These are some of the certificates that  have been obtained</SubTitle>
+                </Center>
+            </Container>
+        </>
+    )
+}
+
+export default Qualification
