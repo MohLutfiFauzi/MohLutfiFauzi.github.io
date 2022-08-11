@@ -4,10 +4,11 @@ import Sidebar from './component/Sidebar'
 import Footer from './component/Footer'
 import Porfolio from './component/Porfolio'
 import Navbar from './component/Navbar'
+import Contact from './component/contact/Contact'
 import Qualification from './pages/Qualification'
 import Greeting from './pages/Greeting'
 import Services from './pages/Services'
-import Contact from './component/contact/Contact'
+import About from './pages/About'
 
 import {
     BrowserRouter,
@@ -37,6 +38,7 @@ const App = () => {
                     <Navbar />
                     <Routes>
                         <Route path="/" element={<Greeting />} />
+                        <Route path="/about" element={<About />} />
                         <Route path="/qualification" element={<Qualification />} />
                         <Route path="/services" element={<Services />} />
                     </Routes>

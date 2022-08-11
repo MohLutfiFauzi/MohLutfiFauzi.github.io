@@ -81,8 +81,8 @@ const Porfolio = () => {
                     <Input placeholder='Search Portfolio' onChange={e => setInputSearch(e.target.value)} />
                 </Center>
                 {portfolios.length > 0 ?
-                    portfolios.map(({ name, link, desc, madeBy }) => (
-                        <a href={link} target='_blank' style={{ textDecoration: 'none' }} rel="noreferrer">
+                    portfolios.map(({ name, link, desc, madeBy }, index) => (
+                        <a href={link} key={index} target='_blank' style={{ textDecoration: 'none' }} rel="noreferrer">
                             <Project>
                                 <Icon>
                                     <UilImageV color='#C9C9C9' size='50' />

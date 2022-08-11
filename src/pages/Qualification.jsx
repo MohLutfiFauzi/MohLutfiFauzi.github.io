@@ -11,6 +11,25 @@ const Container = styled.main`
   flex-direction: column;
   padding: 0 128px;
   overflow-y: auto;
+  &::-webkit-scrollbar {
+    width: 16px;
+    border-left: 1px solid #333333;
+    border-top: 1px solid #333333;
+  }
+  &::-webkit-scrollbar-thumb {
+    visibility: hidden;
+    background: #424342;
+    transition: visibility 3s;
+  }
+  &::-webkit-scrollbar-thumb:hover {
+    background: #676767; 
+   }
+
+  &:hover {
+    &::-webkit-scrollbar-thumb {
+        visibility: visible; 
+    } 
+  }
 `
 
 const Title = styled.h1`
@@ -42,6 +61,7 @@ const DescTop = styled.div`
 const Center = styled.section`
     display: flex;
     flex-direction: column;
+    margin-bottom: 32px;
 `
 
 const SubSubTitle = styled.h2`
@@ -55,7 +75,7 @@ const Ul = styled.ul`
     display: flex;
     flex-direction: column;
     gap: 12px;
-    margin-top: 10px
+    margin-top: 10px;
 `
 
 const LI = styled.li`
@@ -74,6 +94,21 @@ const DateGraduation = styled.div`
     display: flex;
     gap: 5px;
     margin-top: 5px;
+`
+
+const Th = styled.td`
+    border-bottom: 1px solid #E0E2E3;
+    padding: 16px 0;
+    text-align: left;
+    color: white;
+    border-collapse: collapse;
+`
+
+const Td = styled.td`
+    border-bottom: 1px solid #333333;
+    padding: 16px 0;
+    color: white;
+    border-collapse: collapse;
 `
 
 const Qualification = () => {
@@ -128,7 +163,28 @@ const Qualification = () => {
                         </LI>
                     </Ul>
                     <SubSubTitle>Certificate ?</SubSubTitle>
-                    <SubTitle>These are some of the certificates that  have been obtained</SubTitle>
+                    <tabel>
+                        <tr>
+                            <Th style={{ width: "25em" }}>Skills</Th>
+                            <Th style={{ width: "25em" }}>From</Th>
+                        </tr>
+                        <tr>
+                            <Td><Anchor href='https://www.dicoding.com/certificates/MRZMD51G0ZYQ' target='_blank'>Menjadi Front-End Web Developer Expert.</Anchor></Td>
+                            <Td>Dicoding Indonesia.</Td>
+                        </tr>
+                        <tr>
+                            <Td><Anchor href='https://www.dicoding.com/certificates/6RPND619RZ2M' target='_blank'>Belajar Membuat Aplikasi Web dengan React.</Anchor></Td>
+                            <Td>Dicoding Indonesia.</Td>
+                        </tr>
+                        <tr>
+                            <Td><Anchor href='https://www.dicoding.com/certificates/KEXL3V5QYPG2' target='_blank'>Belajar Prinsip Pemrograman SOLID.</Anchor></Td>
+                            <Td>Dicoding Indonesia.</Td>
+                        </tr>
+                        <tr>
+                            <Td><Anchor href='https://www.dicoding.com/certificates/KEXL35YL4PG2' target='_blank'>Belajar Membuat Aplikasi Back-End untuk Pemula.</Anchor></Td>
+                            <Td>Dicoding Indonesia.</Td>
+                        </tr>
+                    </tabel>
                 </Center>
             </Container>
         </>

@@ -55,6 +55,12 @@ const Navbar = () => {
                         </NavLink>
                     </Item>
                     <Item>
+                        <NavLink to='/about' style={({ isActive }) => isActive ? activeStyle : styleLink}>
+                            <img align="left" alt="JavaScript" title="JavaScript" width="18px" src="https://upload.wikimedia.org/wikipedia/commons/9/99/Unofficial_JavaScript_logo_2.svg" />
+                            About.js
+                        </NavLink>
+                    </Item>
+                    <Item>
                         <NavLink to='/qualification' style={({ isActive }) => isActive ? activeStyle : styleLink}>
                             <img align="left" alt="JavaScript" title="JavaScript" width="18px" src="https://upload.wikimedia.org/wikipedia/commons/9/99/Unofficial_JavaScript_logo_2.svg" />
                             Qualification.js
