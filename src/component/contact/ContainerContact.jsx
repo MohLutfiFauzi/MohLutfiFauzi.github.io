@@ -5,7 +5,7 @@ const Container = styled.div`
     flex-basis: 40%;
     background-color: #1E1E1E;
     border-top: 1px solid #3F403F;
-    padding: 8px 14px;
+    padding: 12px 16px;
 `
 
 const Top = styled.ul`
@@ -31,7 +31,7 @@ const Bottom = styled.div`
 // }
 
 let activeStyle = {
-    fontSize: '11px',
+    fontSize: '12px',
     color: '#E0E2E3',
     borderBottom: '1px solid #E0E2E3',
     paddingBottom: '5px',

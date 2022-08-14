@@ -39,8 +39,14 @@ const Title = styled.h1`
 `
 
 const SubTitle = styled.p`
-    font-size: 16px;
-    font-weight: 400;
+    font-size: 1.25rem;
+    font-weight: 200;
+    color: white;
+`
+
+const SubParagraph = styled.p`
+    font-size: 1rem;
+    font-weight: 200;
     color: white;
 `
 
@@ -85,7 +91,7 @@ const LI = styled.li`
 
 const Anchor = styled.a`
     text-decoration: none;
-    color: #485EFF;
+    color: #5F8BBB;
     cursor: pointer;
     font-weight: 300;
 `
@@ -120,7 +126,7 @@ const Qualification = () => {
                     <DescTop>
                         <Title>Qualification</Title>
                         <SubTitle>Frontend Developer  |  UI / UX Designer </SubTitle>
-                        <SubTitle>My personal journey</SubTitle>
+                        <SubParagraph>My personal journey</SubParagraph>
                     </DescTop>
                 </Top>
                 <Center>
@@ -183,6 +189,14 @@ const Qualification = () => {
                         <tr>
                             <Td><Anchor href='https://www.dicoding.com/certificates/KEXL35YL4PG2' target='_blank'>Belajar Membuat Aplikasi Back-End untuk Pemula.</Anchor></Td>
                             <Td>Dicoding Indonesia.</Td>
+                        </tr>
+                        <tr>
+                            <Td><Anchor href='https://drive.google.com/file/d/1zUd0c3TBySKxofZXGyqIAi777s5KNDtx/view' target='_blank'>Peserta Terbaik SIB (Studi Independen Bersertifikat).</Anchor></Td>
+                            <Td>Dicoding Indonesia.</Td>
+                        </tr>
+                        <tr>
+                            <Td><Anchor href='https://drive.google.com/file/d/1oBXeTU-_u65m4ryooGDsmE32cMtvPQcV/view?usp=sharing' target='_blank'>MERN (MongoDB ExpressJS ReactJS NodeJS) Stack.</Anchor></Td>
+                            <Td>Buildwithangga.</Td>
                         </tr>
                     </tabel>
                 </Center>

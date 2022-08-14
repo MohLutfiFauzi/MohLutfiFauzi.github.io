@@ -6,8 +6,8 @@ import { useState } from 'react'
 
 const Title = styled.h1`
     color: white;
-    font-size: 2.25rem;
-    font-weight: bold;
+    font-size: 2rem;
+    font-weight: 500;
 `
 
 const SubTitle = styled.p`
@@ -66,7 +66,7 @@ const Services = () => {
         <>
             <ContainerMain>
                 <Title>Services</Title>
-                <SubTitle>The job to those of you who are <span style={{ color: '#317AC6' }}>interested in me</span></SubTitle>
+                <SubTitle>The job to those of you who are <span style={{ color: '#5F8BBB' }}>interested in me</span></SubTitle>
                 <ContainerServices>
                     <ServiceFrontend selected={changeBorder} onClick={() => setChangeBorder(false)}>
                         <TitleServices>
@@ -75,19 +75,19 @@ const Services = () => {
                         <UlService>
                             <LiService>
                                 <UilCheck style={{ color: '#63B963' }} />
-                                I develop user interface.
+                                HTML & CSS Responsive Web Design.
                             </LiService>
                             <LiService>
                                 <UilCheck style={{ color: '#63B963' }} />
-                                Web page development.
+                                React JS Development.
                             </LiService>
                             <LiService>
                                 <UilCheck style={{ color: '#63B963' }} />
-                                I create ux element interactions.
+                                Node JS Development.
                             </LiService>
                             <LiService>
                                 <UilCheck style={{ color: '#63B963' }} />
-                                I position your company brand.
+                                Javascript JS Development.
                             </LiService>
                         </UlService>
                     </ServiceFrontend>
