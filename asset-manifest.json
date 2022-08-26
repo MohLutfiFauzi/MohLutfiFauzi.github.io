@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/portfolio_lutfi/static/css/main.0febfc2c.css",
-    "main.js": "/portfolio_lutfi/static/js/main.c180ae96.js",
-    "static/media/lutfi jaket.jpg": "/portfolio_lutfi/static/media/lutfi jaket.3cdb156b194b76ca23f3.jpg",
-    "index.html": "/portfolio_lutfi/index.html",
-    "main.0febfc2c.css.map": "/portfolio_lutfi/static/css/main.0febfc2c.css.map",
-    "main.c180ae96.js.map": "/portfolio_lutfi/static/js/main.c180ae96.js.map"
+    "main.css": "/website-portfolio/static/css/main.0febfc2c.css",
+    "main.js": "/website-portfolio/static/js/main.5586f087.js",
+    "static/media/lutfi jaket.jpg": "/website-portfolio/static/media/lutfi jaket.3cdb156b194b76ca23f3.jpg",
+    "index.html": "/website-portfolio/index.html",
+    "main.0febfc2c.css.map": "/website-portfolio/static/css/main.0febfc2c.css.map",
+    "main.5586f087.js.map": "/website-portfolio/static/js/main.5586f087.js.map"
   },
   "entrypoints": [
     "static/css/main.0febfc2c.css",
-    "static/js/main.c180ae96.js"
+    "static/js/main.5586f087.js"
   ]
 }
