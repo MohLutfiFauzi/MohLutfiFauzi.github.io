@@ -26,6 +26,7 @@ const Main = styled.div`
     justify-content: flex-start;
     flex-direction: column;
     flex-basis: 100%;
+
 `
 
 const App = () => {
