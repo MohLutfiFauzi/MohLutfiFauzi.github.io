@@ -3,6 +3,7 @@ import ContainerMain from './ContainerMain'
 import styled from 'styled-components'
 import LutfiJaket from '../assets/lutfi jaket.jpg'
 import { UilFolderDownload } from '@iconscout/react-unicons'
+import resume from '../assets/pdf/Moh Lutfi Fauzi-resume.pdf'
 
 const Title = styled.h1`
     color: white;
@@ -42,7 +43,7 @@ const DescParagraph = styled.p`
     font-size: 16px;
 `
 
-const ButtonCV = styled.button`
+const ButtonCV = styled.a`
     width: 164px;
     height: 54px;
     background-color: #485EFF;
@@ -59,6 +60,7 @@ const ButtonCV = styled.button`
     align-items: center;
     justify-content: center;
     gap: 5px;
+    text-decoration: none;
 `
 
 const About = () => {
@@ -72,7 +74,7 @@ const About = () => {
                     <DescParagraph>
                         Web developer, with extensive knowledge and years of experience, working in web technologies and UI / UX design, delivering quality work &#128175;
                     </DescParagraph>
-                    <ButtonCV>
+                    <ButtonCV href={resume} download>
                         Download CV <UilFolderDownload />
                     </ButtonCV>
                 </ContainerDescAbout>

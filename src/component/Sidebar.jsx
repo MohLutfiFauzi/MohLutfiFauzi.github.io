@@ -19,7 +19,7 @@ const Sidebar = () => {
         <>
             <Container>
                 <a target='_blank' href='https://github.com/MohLutfiFauzi' rel="noreferrer"><UilGithub size="30" color="#ABADAD" /></a>
-                <a target='_blank' href='https://facebook.com/MohLutfiFauzii' rel="noreferrer"><UilFacebookF size="30" color="#ABADAD" /></a>
+                <a target='_blank' href='https://facebook.com/MohLutfiFauzi' rel="noreferrer"><UilFacebookF size="30" color="#ABADAD" /></a>
                 <a target='_blank' href='https://instagram.com/mohlutfifauzi' rel="noreferrer"><UilInstagram size="30" color="#ABADAD" /></a>
                 <a target='_blank' href='https://dribbble.com/MohLutfiFauzi' rel="noreferrer"><UilDribbble size="30" color="#ABADAD" /></a>
                 <a target='_blank' href='https://twitter.com/MohLutfiFauzi' rel="noreferrer"><UilTwitter size="30" color="#ABADAD" /></a>

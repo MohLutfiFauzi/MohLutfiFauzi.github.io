@@ -1,7 +1,7 @@
 export const dataPortfolio = [
     {
         name: "BCI Bank",
-        desc: "built with css, html and figma",
+        desc: "built with css, html and js",
         link: "https://mohlutfifauzi.github.io/bci-bank/",
         madeBy: "Moh Lutfi Fauzi"
     },

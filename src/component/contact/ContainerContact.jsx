@@ -6,6 +6,7 @@ const Container = styled.div`
     background-color: #1E1E1E;
     border-top: 1px solid #3F403F;
     padding: 12px 16px;
+    min-height: 210px;
 `
 
 const Top = styled.ul`
