@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/static/css/main.0febfc2c.css",
-    "main.js": "/static/js/main.c11ec904.js",
+    "main.js": "/static/js/main.ad03922e.js",
     "static/media/Moh Lutfi Fauzi-resume.pdf": "/static/media/Moh Lutfi Fauzi-resume.3360a76ce698cee94227.pdf",
     "static/media/lutfi jaket.jpg": "/static/media/lutfi jaket.3cdb156b194b76ca23f3.jpg",
     "index.html": "/index.html",
     "main.0febfc2c.css.map": "/static/css/main.0febfc2c.css.map",
-    "main.c11ec904.js.map": "/static/js/main.c11ec904.js.map"
+    "main.ad03922e.js.map": "/static/js/main.ad03922e.js.map"
   },
   "entrypoints": [
     "static/css/main.0febfc2c.css",
-    "static/js/main.c11ec904.js"
+    "static/js/main.ad03922e.js"
   ]
 }
