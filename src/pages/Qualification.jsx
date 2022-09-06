@@ -141,21 +141,21 @@ const Qualification = () => {
                             </DateGraduation>
                         </LI>
                         <LI>
-                            Learn Web Design at  <Anchor href='https://buildwithangga.com/ab-lp-1' target='_blank'>Buildwithangga.</Anchor><br />
+                            Learn Web Development at <Anchor href='https://www.dicoding.com/' target='_blank'>Dicoding Indonesia.</Anchor><br />
                             <DateGraduation>
-                                <UilCalendarAlt /> 2018 - 2022
+                                <UilCalendarAlt /> 2021 - 2022
                             </DateGraduation>
                         </LI>
                         <LI>
-                            Learn Web Development at <Anchor href='https://www.dicoding.com/' target='_blank'>Dicoding Indonesia.</Anchor><br />
+                            Learn Web Design at  <Anchor href='https://buildwithangga.com/ab-lp-1' target='_blank'>Buildwithangga.</Anchor><br />
                             <DateGraduation>
-                                <UilCalendarAlt /> 2018 - 2022
+                                <UilCalendarAlt /> 2021 - 2021
                             </DateGraduation>
                         </LI>
                         <LI>
                             Learn Master in UI / UX at  <Anchor href='https://buildwithangga.com/ab-lp-1' target='_blank'>Buildwithangga.</Anchor><br />
                             <DateGraduation>
-                                <UilCalendarAlt /> 2018 - 2022
+                                <UilCalendarAlt /> 2021 - 2021
                             </DateGraduation>
                         </LI>
                     </Ul>
