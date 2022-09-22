@@ -1,8 +1,8 @@
 {
+  "homepage": "http://mohlutfifauzi.github.io/",
   "name": "portfolio-website-lutfi",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://mohlutfifauzi.github.io/",
   "dependencies": {
     "@iconscout/react-unicons": "^1.1.6",
     "@testing-library/jest-dom": "^5.16.4",
