@@ -159,7 +159,7 @@ const Qualification = () => {
                             </DateGraduation>
                         </LI>
                     </Ul>
-                    <SubSubTitle>Work ?</SubSubTitle>
+                    {/* <SubSubTitle>Work ?</SubSubTitle>
                     <Ul>
                         <LI>
                             As a Frontend Developer, I haven't worked yet
@@ -167,7 +167,7 @@ const Qualification = () => {
                         <LI>
                             As a UI / UX, I haven't worked yet
                         </LI>
-                    </Ul>
+                    </Ul> */}
                     <SubSubTitle>Certificate ?</SubSubTitle>
                     <tabel>
                         <tr>

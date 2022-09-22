@@ -11,4 +11,10 @@ export const dataPortfolio = [
         link: "https://mohlutfifauzi.github.io/bookshelf/",
         madeBy: "Moh Lutfi Fauzi"
     },
+    {
+        name: "Notes App",
+        desc: "built with reactjs and context",
+        link: "https://mohlutfifauzi.github.io/notes-app/",
+        madeBy: "Moh Lutfi Fauzi"
+    },
 ];

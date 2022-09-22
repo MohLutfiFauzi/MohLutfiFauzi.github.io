@@ -19,6 +19,7 @@ import {
 const Container = styled.div`
     display: flex;
     justify-content: flex-start;
+    position: relative;
 `
 
 const Main = styled.div`

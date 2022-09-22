@@ -78,7 +78,7 @@ const Porfolio = () => {
                     <UilEllipsisH color='#C9C9C9' size='20' style={{ cursor: 'pointer' }} />
                 </Top>
                 <Center>
-                    <Input placeholder='Search Portfolio' onChange={e => setInputSearch(e.target.value)} />
+                    <Input placeholder='Search Project' onChange={e => setInputSearch(e.target.value)} />
                 </Center>
                 {portfolios.length > 0 ?
                     portfolios.map(({ name, link, desc, madeBy }, index) => (
@@ -94,7 +94,7 @@ const Porfolio = () => {
                                 </ProjectDesc>
                             </Project>
                         </a>
-                    )) : <EmptyMessage>No portfolio found.</EmptyMessage>
+                    )) : <EmptyMessage>No project found.</EmptyMessage>
                 }
             </Container>
         </>
