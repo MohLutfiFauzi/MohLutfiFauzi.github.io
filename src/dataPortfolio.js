@@ -13,7 +13,7 @@ export const dataPortfolio = [
     },
     {
         name: "Notes App",
-        desc: "built with reactjs and context",
+        desc: "built with reactjs and api",
         link: "https://mohlutfifauzi.github.io/notes-app/",
         madeBy: "Moh Lutfi Fauzi"
     },
