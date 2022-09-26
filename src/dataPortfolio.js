@@ -17,4 +17,10 @@ export const dataPortfolio = [
         link: "https://mohlutfifauzi.github.io/notes-app/",
         madeBy: "Moh Lutfi Fauzi"
     },
+    {
+        name: "Todos App",
+        desc: "built with reactjs and typescript",
+        link: "https://mohlutfifauzi.github.io/todos-with-typescript/",
+        madeBy: "Moh Lutfi Fauzi"
+    },
 ];

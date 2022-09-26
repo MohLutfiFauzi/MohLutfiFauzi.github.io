@@ -192,7 +192,7 @@ const Qualification = () => {
                         </tr>
                         <tr>
                             <Td><Anchor href='https://drive.google.com/file/d/1zUd0c3TBySKxofZXGyqIAi777s5KNDtx/view' target='_blank'>Peserta Terbaik SIB (Studi Independen Bersertifikat).</Anchor></Td>
-                            <Td>Dicoding Indonesia.</Td>
+                            <Td>Kampus Merdeka.</Td>
                         </tr>
                         <tr>
                             <Td><Anchor href='https://drive.google.com/file/d/1oBXeTU-_u65m4ryooGDsmE32cMtvPQcV/view?usp=sharing' target='_blank'>MERN (MongoDB ExpressJS ReactJS NodeJS) Stack.</Anchor></Td>
