@@ -19,6 +19,11 @@ import {
 const Container = styled.div`
     display: flex;
     justify-content: flex-start;
+    max-width: 1440px;
+    min-height: 660px;
+    max-height: 750px;
+    height: 100vh;
+    margin: auto;
     position: relative;
 `
 

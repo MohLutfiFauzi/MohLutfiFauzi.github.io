@@ -2,7 +2,7 @@ import React from 'react'
 import styled from 'styled-components'
 
 const Container = styled.div`
-    flex-basis: 40%;
+    flex-basis: 50%;
     background-color: #1E1E1E;
     border-top: 1px solid #3F403F;
     padding: 12px 16px;

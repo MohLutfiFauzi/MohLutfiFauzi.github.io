@@ -4,7 +4,7 @@ import { UilGithub, UilInstagram, UilFacebookF, UilLinkedin, UilDribbble, UilTwi
 
 const Container = styled.aside`
     min-width: 50px;
-    min-height: 100vh;
+    min-height: 100%;
     background-color: #333;
     display: flex;
     flex-direction: column;

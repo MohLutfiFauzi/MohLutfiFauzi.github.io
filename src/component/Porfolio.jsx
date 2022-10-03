@@ -6,7 +6,7 @@ import { useState } from 'react'
 
 const Container = styled.div`
     min-width: 300px;
-    min-height: 100vh;
+    min-height: 100%;
     background-color: #252526;
 `
 

@@ -3,9 +3,9 @@ import styled from 'styled-components'
 
 const Container = styled.footer`
     background-color: #317AC6;
-    position: fixed;
+    position: absolute;
     bottom: 0;
-    width: 100vw;
+    width: 100%;
     text-align: center;
 `
 
