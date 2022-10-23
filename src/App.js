@@ -10,21 +10,22 @@ import Greeting from './pages/Greeting'
 import Services from './pages/Services'
 import About from './pages/About'
 
+import { useMediaQuery } from 'react-responsive'
+
 import {
     BrowserRouter,
     Routes,
     Route,
 } from "react-router-dom";
 
-const Container = styled.div`
+const Container = styled.main`
     display: flex;
     justify-content: flex-start;
-    max-width: 1440px;
-    min-height: 660px;
-    max-height: 750px;
     height: 100vh;
     margin: auto;
     position: relative;
+    box-sizing: border-box;
+    max-width: 100vw;
 `
 
 const Main = styled.div`
@@ -32,15 +33,22 @@ const Main = styled.div`
     justify-content: flex-start;
     flex-direction: column;
     flex-basis: 100%;
-
 `
 
 const App = () => {
+    const isDesktopOrLaptop = useMediaQuery({
+        query: '(min-width: 1224px)'
+    })
+
+    const isTablet = useMediaQuery({
+        query: '(min-width: 768px)'
+    })
+
     return (
         <BrowserRouter>
             <Container>
                 <Sidebar />
-                <Porfolio />
+                {isDesktopOrLaptop ? <Porfolio /> : ""}
                 <Main>
                     <Navbar />
                     <Routes>
@@ -49,7 +57,7 @@ const App = () => {
                         <Route path="/qualification" element={<Qualification />} />
                         <Route path="/services" element={<Services />} />
                     </Routes>
-                    <Contact />
+                    {isTablet ? <Contact /> : ""}
                 </Main>
                 <Footer />
             </Container>
