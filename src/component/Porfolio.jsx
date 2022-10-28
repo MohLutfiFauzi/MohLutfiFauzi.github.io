@@ -81,7 +81,7 @@ const Porfolio = () => {
                     <Input placeholder='Search Project' onChange={e => setInputSearch(e.target.value)} />
                 </Center>
                 {portfolios.length > 0 ?
-                    portfolios.map(({ name, link, desc, madeBy }, index) => (
+                    portfolios.map(({ name, link, desc, difficulty }, index) => (
                         <a href={link} key={index} target='_blank' style={{ textDecoration: 'none' }} rel="noreferrer">
                             <Project>
                                 <Icon>
@@ -90,7 +90,7 @@ const Porfolio = () => {
                                 <ProjectDesc>
                                     <h2 style={{ fontSize: '16px', fontWeight: '700', color: '#BFBFBF' }}>{name}</h2>
                                     <p style={{ fontSize: '14px', fontWeight: '300', color: '#B4B4B4' }}>{desc}</p>
-                                    <h2 style={{ fontSize: '12px', fontWeight: '500', color: '#B4B4B4' }}>{madeBy}</h2>
+                                    <h2 style={{ fontSize: '12px', fontWeight: '500', color: '#B4B4B4' }}>{difficulty}</h2>
                                 </ProjectDesc>
                             </Project>
                         </a>
