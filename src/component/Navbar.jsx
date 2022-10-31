@@ -2,6 +2,8 @@ import React from 'react'
 import styled from 'styled-components'
 import { NavLink } from 'react-router-dom'
 
+import { useMediaQuery } from 'react-responsive'
+
 const Navigasi = styled.nav`
     background-color: #252526;
 `
@@ -44,28 +46,42 @@ let activeStyle = {
 }
 
 const Navbar = () => {
+    const isMobile = useMediaQuery({
+        query: '(max-width: 459px)'
+    })
+
+    const isTablet = useMediaQuery({
+        query: '(max-width: 820px)'
+    })
+
     return (
         <>
             <Navigasi>
                 <Container>
-                    <Item>
-                        <NavLink to='/' style={({ isActive }) => isActive ? activeStyle : styleLink}>
-                            <img align="left" alt="JavaScript" title="JavaScript" width="18px" src="https://upload.wikimedia.org/wikipedia/commons/9/99/Unofficial_JavaScript_logo_2.svg" />
-                            Greeting.js
-                        </NavLink>
-                    </Item>
+                    {
+                        isTablet ? null :
+                            <Item>
+                                <NavLink to='/' style={({ isActive }) => isActive ? activeStyle : styleLink}>
+                                    <img align="left" alt="JavaScript" title="JavaScript" width="18px" src="https://upload.wikimedia.org/wikipedia/commons/9/99/Unofficial_JavaScript_logo_2.svg" />
+                                    Greeting.js
+                                </NavLink>
+                            </Item>
+                    }
                     <Item>
                         <NavLink to='/about' style={({ isActive }) => isActive ? activeStyle : styleLink}>
                             <img align="left" alt="JavaScript" title="JavaScript" width="18px" src="https://upload.wikimedia.org/wikipedia/commons/9/99/Unofficial_JavaScript_logo_2.svg" />
                             About.js
                         </NavLink>
                     </Item>
-                    <Item>
-                        <NavLink to='/services' style={({ isActive }) => isActive ? activeStyle : styleLink}>
-                            <img align="left" alt="JavaScript" title="JavaScript" width="18px" src="https://upload.wikimedia.org/wikipedia/commons/9/99/Unofficial_JavaScript_logo_2.svg" />
-                            Services.js
-                        </NavLink>
-                    </Item>
+                    {
+                        isMobile ? null :
+                            <Item>
+                                <NavLink to='/services' style={({ isActive }) => isActive ? activeStyle : styleLink}>
+                                    <img align="left" alt="JavaScript" title="JavaScript" width="18px" src="https://upload.wikimedia.org/wikipedia/commons/9/99/Unofficial_JavaScript_logo_2.svg" />
+                                    Services.js
+                                </NavLink>
+                            </Item>
+                    }
                     <Item>
                         <NavLink to='/qualification' style={({ isActive }) => isActive ? activeStyle : styleLink}>
                             <img align="left" alt="JavaScript" title="JavaScript" width="18px" src="https://upload.wikimedia.org/wikipedia/commons/9/99/Unofficial_JavaScript_logo_2.svg" />

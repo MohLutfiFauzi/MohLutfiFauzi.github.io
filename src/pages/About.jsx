@@ -81,14 +81,16 @@ const ContainerAbout = styled.section`
 `
 
 const ImgAbout = styled.img`
-    width: 300px;
-    height: 200px;
+    min-width: 200px;
+    width: 100%;
+    max-width: 300px;
     object-fit: cover;
     border-radius: 8px;
 `
 
 const ContainerDescAbout = styled.div`
-    width: 400px;
+    width: fit-content;
+    max-width: 400px;
     display: flex;
     flex-direction: column;
     gap: 24px;
@@ -102,7 +104,7 @@ const ContainerDescAbout = styled.div`
 
 const DescParagraph = styled.p`
     color: white;
-    font-size: 16px;
+    font-size: 1rem;
 `
 
 const ButtonCV = styled.a`

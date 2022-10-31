@@ -79,7 +79,7 @@ const ContainerServices = styled.section`
 `
 
 const ServiceFrontend = styled.div`
-    width: 400px;
+    width: fit-content;
     padding: 18px;
     border: ${props => (props.selected ? '1px solid #3F403F' : '1px solid #317AC6')};
     align-self: start;
@@ -87,7 +87,7 @@ const ServiceFrontend = styled.div`
 `
 
 const ServiceUIUX = styled.div`
-    width: 400px;
+    width: fit-content;
     padding: 18px;
     border: ${props => (props.selected ? '1px solid #317AC6' : '1px solid #3F403F')};
     cursor: pointer;

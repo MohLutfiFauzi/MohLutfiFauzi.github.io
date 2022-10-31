@@ -25,8 +25,14 @@ export const dataPortfolio = [
     },
     {
         name: "Tip Calculator App",
-        desc: "built with reactjs and Flexbox",
+        desc: "built with reactjs and flexbox",
         link: "https://tip-calculator-app-reactjs.netlify.app/",
-        difficulty: "Newbie"
+        difficulty: "Junior"
+    },
+    {
+        name: "Advice Generator App",
+        desc: "built with reactjs and scss",
+        link: "https://advice-generator-app-reactjs.netlify.app/",
+        difficulty: "Junior"
     },
 ];
