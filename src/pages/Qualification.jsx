@@ -2,6 +2,7 @@ import React from 'react'
 import styled from 'styled-components'
 import Diploma from '../assets/education.png';
 import { UilCalendarAlt } from '@iconscout/react-unicons'
+import { certificates } from './../data'
 
 const Container = styled.main`
   padding: 1rem 1rem 2rem 1rem;
@@ -147,6 +148,12 @@ const Qualification = () => {
                                 </DateGraduation>
                             </LI>
                             <LI>
+                                Learn Wordpress at <Anchor href='https://lms.pakar.co.id/' target='_blank'>Pakar.</Anchor><br />
+                                <DateGraduation>
+                                    <UilCalendarAlt /> 2022 - 2022
+                                </DateGraduation>
+                            </LI>
+                            <LI>
                                 Learn Master in UI / UX at  <Anchor href='https://www.hacktiv8.com/' target='_blank'>Hacktiv8.</Anchor><br />
                                 <DateGraduation>
                                     <UilCalendarAlt /> 2022 - 2022
@@ -180,34 +187,14 @@ const Qualification = () => {
                                 <Th style={{ width: "25em" }}>Skills</Th>
                                 <Th style={{ width: "25em" }}>From</Th>
                             </tr>
-                            <tr>
-                                <Td><Anchor href='https://www.dicoding.com/certificates/MRZMD51G0ZYQ' target='_blank'>Menjadi Front-End Web Developer Expert.</Anchor></Td>
-                                <Td>Dicoding Indonesia.</Td>
-                            </tr>
-                            <tr>
-                                <Td><Anchor href='https://www.dicoding.com/certificates/6RPND619RZ2M' target='_blank'>Belajar Membuat Aplikasi Web dengan React.</Anchor></Td>
-                                <Td>Dicoding Indonesia.</Td>
-                            </tr>
-                            <tr>
-                                <Td><Anchor href='https://www.dicoding.com/certificates/KEXL3V5QYPG2' target='_blank'>Belajar Prinsip Pemrograman SOLID.</Anchor></Td>
-                                <Td>Dicoding Indonesia.</Td>
-                            </tr>
-                            <tr>
-                                <Td><Anchor href='https://www.dicoding.com/certificates/KEXL35YL4PG2' target='_blank'>Belajar Membuat Aplikasi Back-End untuk Pemula.</Anchor></Td>
-                                <Td>Dicoding Indonesia.</Td>
-                            </tr>
-                            <tr>
-                                <Td><Anchor href='https://drive.google.com/file/d/1zUd0c3TBySKxofZXGyqIAi777s5KNDtx/view' target='_blank'>Peserta Terbaik SIB (Studi Independen Bersertifikat).</Anchor></Td>
-                                <Td>Kampus Merdeka.</Td>
-                            </tr>
-                            <tr>
-                                <Td><Anchor href='https://drive.google.com/file/d/1oBXeTU-_u65m4ryooGDsmE32cMtvPQcV/view?usp=sharing' target='_blank'>MERN (MongoDB ExpressJS ReactJS NodeJS) Stack.</Anchor></Td>
-                                <Td>Buildwithangga.</Td>
-                            </tr>
-                            <tr>
-                                <Td><Anchor href='https://drive.google.com/file/d/1SbtCqXgUq7SypdApsEs1b41cE3Lzzr6T/view?usp=sharing' target='_blank'>Belajar mempercantik tampilan aplikasi untuk menjadi Desainer Website (Webinar).</Anchor></Td>
-                                <Td>Hacktiv8.</Td>
-                            </tr>
+                            {
+                                certificates.map((certificate, index) => (
+                                    <tr key={index}>
+                                        <Td><Anchor href={certificate.link} target='_blank'>{certificate.title}</Anchor></Td>
+                                        <Td>{certificate.from}</Td>
+                                    </tr>
+                                ))
+                            }
                         </tabel>
                     </Center>
                 </CenterItems>

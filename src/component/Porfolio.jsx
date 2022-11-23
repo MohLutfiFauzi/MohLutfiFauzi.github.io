@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 import { UilEllipsisH, UilImageV } from '@iconscout/react-unicons'
-import { dataPortfolio } from '../dataPortfolio'
+import { projects } from '../data'
 import { useState } from 'react'
 
 const Container = styled.div`
@@ -68,7 +68,7 @@ const EmptyMessage = styled.p`
 
 const Porfolio = () => {
     const [inputSearch, setInputSearch] = useState('');
-    const portfolios = dataPortfolio.filter(element => element.name.toLowerCase().includes(inputSearch.toLowerCase())).map((data) => data);
+    const portfolios = projects.filter(element => element.name.toLowerCase().includes(inputSearch.toLowerCase())).map((data) => data);
 
     return (
         <>
