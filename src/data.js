@@ -24,16 +24,10 @@ export const projects = [
         difficulty: "Intermediate"
     },
     {
-        name: "Tip Calculator App",
-        desc: "built with reactjs and flexbox",
-        link: "https://tip-calculator-app-reactjs.netlify.app/",
-        difficulty: "Junior"
-    },
-    {
-        name: "Advice Generator App",
-        desc: "built with reactjs and scss",
-        link: "https://advice-generator-app-reactjs.netlify.app/",
-        difficulty: "Junior"
+        name: "Forum App",
+        desc: "built with react and redux + Automation Testing and CI/CD",
+        link: "https://forum-app-react.vercel.app/",
+        difficulty: "Intermediate"
     },
 ];
 

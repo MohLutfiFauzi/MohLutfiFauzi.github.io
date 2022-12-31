@@ -61,7 +61,7 @@ const Greeting = () => {
       <Container>
         <CenterItems >
           <Greet > <Tag className='animate__animated animate__fadeInUp'> &lt;greeting&gt; </Tag > Hi, I'am Lutfi 👋<Tag className='animate__animated animate__fadeInUp'> &lt;/greeting&gt; </Tag></Greet>
-          <Desc >I'm a frontend developer who works as a freelancer from Cianjur, Indonesia.</Desc>
+          <Desc >An independent Frontend Developer who loves to create projects about website.</Desc>
         </CenterItems>
       </Container>
     </>

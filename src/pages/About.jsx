@@ -94,12 +94,8 @@ const ContainerDescAbout = styled.div`
     display: flex;
     flex-direction: column;
     gap: 24px;
-    text-align: center;
-    align-items: center;
-    @media ${devices.laptop} {
-        text-align: left;
-        align-items: flex-start;
-    }
+    text-align: left;
+    align-items: flex-start;
 `
 
 const DescParagraph = styled.p`
