@@ -38,9 +38,9 @@ export const certificates = [
         link: "https://www.dicoding.com/certificates/MRZMD51G0ZYQ"
     },
     {
-        title: "Belajar Membuat Aplikasi Web dengan React.",
+        title: "Menjadi React Web Developer Expert.",
         from: "Dicoding Indonesia.",
-        link: "https://www.dicoding.com/certificates/6RPND619RZ2M"
+        link: "https://www.dicoding.com/certificates/JLX1L945NX72"
     },
     {
         title: "Belajar Prinsip Pemrograman SOLID.",
@@ -51,6 +51,11 @@ export const certificates = [
         title: "Belajar Membuat Aplikasi Back-End untuk Pemula.",
         from: "Dicoding Indonesia.",
         link: "https://www.dicoding.com/certificates/KEXL35YL4PG2"
+    },
+    {
+        title: "Belajar Dasar Git dengan GitHub.",
+        from: "Dicoding Indonesia.",
+        link: "https://www.dicoding.com/certificates/N9ZOE11R0XG5"
     },
     {
         title: "Peserta Terbaik SIB (Studi Independen Bersertifikat).",
