@@ -1,5 +1,11 @@
 export const projects = [
     {
+        name: "Bastards",
+        desc: "built with css, html and js",
+        link: "https://mohlutfifauzi.github.io/bastards/",
+        difficulty: "Junior"
+    },
+    {
         name: "BCI Bank",
         desc: "built with css, html and js",
         link: "https://mohlutfifauzi.github.io/bci-bank/",
